@@ -1,0 +1,50 @@
+.navbar{
+    position: relative;
+    display: inline;
+    height: 100%;
+    width: 48px;
+    min-width: 48px;
+    left: 0;
+    background-color: #2d2d30;
+}
+
+#botnav,#topnav{
+    width: 48px;
+}
+
+.svg_container{
+    width: 48px;
+    height: 48px;
+}
+
+.Sidebar_icon{
+    padding: 9.6px;
+    margin-left: 1.180px;
+    margin-right: 1.180px;
+    height: 24px;
+    width: 24px;
+}
+
+.Sidebar_icon:hover{
+    fill: rgb(225, 228, 232);
+}
+
+#topnav{
+    position: absolute;
+    top: 0;
+    min-height: 240px;
+}
+
+#botnav{
+    position: absolute;
+    bottom: 0;
+    min-height: 96px;
+}
+
+.svg_container.active{
+    border-left: 2px solid  rgb(225, 228, 232);
+}
+
+.Sidebar_icon.active{
+    fill: rgb(225, 228, 232);
+}
